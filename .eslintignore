@@ -1,0 +1,5 @@
+node_modules/
+dist/
+changelog.config.js
+scripts/
+tsconfig.json
