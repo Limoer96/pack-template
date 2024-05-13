@@ -12,7 +12,7 @@
   "scripts": {
     "build": "",
     "ncu": "npx npm-check-updates -u -x antd,typescript",
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx",
     "lint:style": "stylelint 'src/**/*.less'",
     "commit": "npx git-cz",

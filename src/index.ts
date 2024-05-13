@@ -2,4 +2,8 @@ function add(one: number, other: number) {
   return one + other
 }
 
-export { add }
+function sub(one: number, other: number) {
+  return one - other
+}
+
+export { add, sub }
