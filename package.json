@@ -1,5 +1,5 @@
 {
-  "name": "lib-template",
+  "name": "@hjfc/pack-template",
   "version": "0.0.1",
   "description": "typescript lib common template",
   "main": "lib/index.js",
