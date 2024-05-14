@@ -15,15 +15,17 @@
     "noEmit": false,
     "jsx": "preserve",
     "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "declaration": true
+    "noUnusedParameters": true
   },
   "include": [
-    "./src",
+    "src/**/*",
     "./docs",
     ".eslintrc.js",
     "stylelint.config.js",
-    "scripts/"
+    "scripts/",
+    "rollup.config.ts",
+    "index.d.ts",
+    "rollup.preserve.ts"
   ],
   "exclude": ["node_modules"]
 }

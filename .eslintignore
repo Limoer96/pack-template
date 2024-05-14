@@ -3,3 +3,6 @@ dist/
 changelog.config.js
 scripts/
 tsconfig.json
+rollup.config.ts
+rollup.preserve.ts
+index.d.ts
