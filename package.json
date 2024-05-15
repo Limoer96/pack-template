@@ -12,7 +12,9 @@
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "build:preserve": "rollup --config rollup.preserve.ts --configPlugin @rollup/plugin-typescript",
-    "prepare": "husky",
+    "postinstall": "husky",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable",
     "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx",
     "lint:style": "stylelint 'src/**/*.less'",
     "commit": "npx git-cz",
