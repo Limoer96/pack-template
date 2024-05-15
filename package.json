@@ -24,7 +24,11 @@
     "release:major:beta": "release-it major --preRelease=beta",
     "release:minor:beta": "release-it minor --preRelease=beta",
     "release:patch:beta": "release-it patch --preRelease=beta",
-    "run:publish": "node ./scripts/publish.js"
+    "run:publish": "node ./scripts/publish.js",
+    "test": "vitest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -63,7 +67,10 @@
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-esbuild": "^6.1.1",
     "ts-node": "^10.9.2",
-    "typescript": "~5.2.0"
+    "typescript": "~5.2.0",
+    "vite": "^5.2.11",
+    "vitepress": "^1.1.4",
+    "vitest": "^1.6.0"
   },
   "prettier": "@fruits-chain/prettier-config-preset",
   "lint-staged": {
@@ -105,5 +112,6 @@
   },
   "dependencies": {
     "@fruits-chain/utils": "^1.0.6"
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }
