@@ -18,7 +18,7 @@
     "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx",
     "lint:style": "stylelint 'src/**/*.less'",
     "commit": "npx git-cz",
-    "publish": "npm publish --access public",
+    "pub": "npm publish --access public",
     "release:major": "release-it major",
     "release:minor": "release-it minor",
     "release:patch": "release-it patch",

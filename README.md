@@ -38,7 +38,7 @@
 
 使用`yarn release:xx:xxx`(具体见`package.json`)执行发布过程，更多关于包版本的信息可以运行`npm help version`或查看[此文章](https://github.com/mqyqingfeng/Blog/issues/312)
 
-请根据自身情况配置`release-it`，`release-it`默认不发布包，你可以执行`yarn publish`执行默认发布或者`yarn run:publish`执行带`tag`的发布
+请根据自身情况配置`release-it`，`release-it`默认不发布包，你可以执行`yarn pub`执行默认发布或者`yarn run:publish`执行带`tag`的发布
 
 ### 文档
 
