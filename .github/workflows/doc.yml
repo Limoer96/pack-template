@@ -7,7 +7,7 @@ jobs:
   build:
     name: Build and deploy gh-pages
     env:
-      GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       USER_NAME: Limoer96
       USER_EMAIL: myt19960503@outlook.com
     runs-on: ubuntu-latest
