@@ -1151,6 +1151,7 @@ __metadata:
     gh-pages: "npm:^6.1.1"
     husky: "npm:^9.0.11"
     lint-staged: "npm:^15.2.2"
+    pinst: "npm:^3.0.0"
     release-it: "npm:^17.2.1"
     rollup: "npm:^4.17.2"
     rollup-plugin-dts: "npm:^6.1.0"
@@ -9141,6 +9142,15 @@ __metadata:
   version: 2.0.4
   resolution: "pinkie@npm:2.0.4"
   checksum: 10c0/25228b08b5597da42dc384221aa0ce56ee0fbf32965db12ba838e2a9ca0193c2f0609c45551ee077ccd2060bf109137fdb185b00c6d7e0ed7e35006d20fdcbc6
+  languageName: node
+  linkType: hard
+
+"pinst@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "pinst@npm:3.0.0"
+  bin:
+    pinst: bin.js
+  checksum: 10c0/abb1ed62ea2acb2207a7a860715bdb26ecbde74ede8fad5f6200194f3e22db25e2b7a49af05e5cc7fc05384709c651e0000323f0077d7239060c4b68c8acd428
   languageName: node
   linkType: hard
 

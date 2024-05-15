@@ -63,6 +63,7 @@
     "gh-pages": "^6.1.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "pinst": "^3.0.0",
     "release-it": "^17.2.1",
     "rollup": "^4.17.2",
     "rollup-plugin-dts": "^6.1.0",
