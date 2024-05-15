@@ -12,7 +12,6 @@
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "build:preserve": "rollup --config rollup.preserve.ts --configPlugin @rollup/plugin-typescript",
-    "ncu": "npx npm-check-updates -u -x antd,typescript",
     "prepare": "husky",
     "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx",
     "lint:style": "stylelint 'src/**/*.less'",
