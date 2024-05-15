@@ -1,6 +1,6 @@
 {
   "name": "@hjfc/pack-template",
-  "version": "0.0.2-beta.0",
+  "version": "0.0.2",
   "description": "typescript lib common template",
   "main": "lib/index.js",
   "module": "es/index.js",
