@@ -7,7 +7,7 @@ const tag = /-[a-zA-Z]*/g
 // const reg = /[0-9]*\.[0-9]*\.[0-9]*/g;
 function getPublishCommand() {
   const versionTag = packageJsonData.version.match(tag)?.[0]?.slice(1)
-  let commandText = 'npm publish'
+  let commandText = 'yarn npm publish'
   if (versionTag) {
     commandText += ` --tag ${versionTag}`
   }
